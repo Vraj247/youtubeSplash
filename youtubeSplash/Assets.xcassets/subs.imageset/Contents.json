@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "subs.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
