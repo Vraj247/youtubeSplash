@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721ED9C22BD4683C0034F2B8 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721ED9C12BD4683C0034F2B8 /* HomePage.swift */; };
+		721ED9C42BD470990034F2B8 /* TopNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721ED9C32BD470990034F2B8 /* TopNav.swift */; };
+		721ED9C62BD5028C0034F2B8 /* BottomNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721ED9C52BD5028C0034F2B8 /* BottomNav.swift */; };
+		724D5CE52BDA52940019620F /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724D5CE42BDA52940019620F /* VideoView.swift */; };
 		728016DF2BD41D27003416C9 /* youtubeSplashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728016DE2BD41D27003416C9 /* youtubeSplashApp.swift */; };
 		728016E12BD41D27003416C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728016E02BD41D27003416C9 /* ContentView.swift */; };
 		728016E32BD41D29003416C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728016E22BD41D29003416C9 /* Assets.xcassets */; };
 		728016E62BD41D29003416C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728016E52BD41D29003416C9 /* Preview Assets.xcassets */; };
+		728016EE2BD41D67003416C9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 728016ED2BD41D67003416C9 /* Lottie */; };
+		728016F02BD41D7B003416C9 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728016EF2BD41D7B003416C9 /* LottieView.swift */; };
+		728016F22BD41DAD003416C9 /* youtube.json in Resources */ = {isa = PBXBuildFile; fileRef = 728016F12BD41DAD003416C9 /* youtube.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		721ED9C12BD4683C0034F2B8 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		721ED9C32BD470990034F2B8 /* TopNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNav.swift; sourceTree = "<group>"; };
+		721ED9C52BD5028C0034F2B8 /* BottomNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNav.swift; sourceTree = "<group>"; };
+		724D5CE42BDA52940019620F /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		728016DB2BD41D27003416C9 /* youtubeSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtubeSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728016DE2BD41D27003416C9 /* youtubeSplashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtubeSplashApp.swift; sourceTree = "<group>"; };
 		728016E02BD41D27003416C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		728016E22BD41D29003416C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		728016E52BD41D29003416C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		728016EF2BD41D7B003416C9 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		728016F12BD41DAD003416C9 /* youtube.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = youtube.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728016EE2BD41D67003416C9 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +68,13 @@
 				728016DE2BD41D27003416C9 /* youtubeSplashApp.swift */,
 				728016E02BD41D27003416C9 /* ContentView.swift */,
 				728016E22BD41D29003416C9 /* Assets.xcassets */,
+				728016F12BD41DAD003416C9 /* youtube.json */,
 				728016E42BD41D29003416C9 /* Preview Content */,
+				728016EF2BD41D7B003416C9 /* LottieView.swift */,
+				721ED9C12BD4683C0034F2B8 /* HomePage.swift */,
+				721ED9C32BD470990034F2B8 /* TopNav.swift */,
+				721ED9C52BD5028C0034F2B8 /* BottomNav.swift */,
+				724D5CE42BDA52940019620F /* VideoView.swift */,
 			);
 			path = youtubeSplash;
 			sourceTree = "<group>";
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = youtubeSplash;
+			packageProductDependencies = (
+				728016ED2BD41D67003416C9 /* Lottie */,
+			);
 			productName = youtubeSplash;
 			productReference = 728016DB2BD41D27003416C9 /* youtubeSplash.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = 728016D22BD41D27003416C9;
+			packageReferences = (
+				728016EC2BD41D67003416C9 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 728016DC2BD41D27003416C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				728016E62BD41D29003416C9 /* Preview Assets.xcassets in Resources */,
+				728016F22BD41DAD003416C9 /* youtube.json in Resources */,
 				728016E32BD41D29003416C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +165,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				728016E12BD41D27003416C9 /* ContentView.swift in Sources */,
+				724D5CE52BDA52940019620F /* VideoView.swift in Sources */,
 				728016DF2BD41D27003416C9 /* youtubeSplashApp.swift in Sources */,
+				728016F02BD41D7B003416C9 /* LottieView.swift in Sources */,
+				721ED9C22BD4683C0034F2B8 /* HomePage.swift in Sources */,
+				721ED9C62BD5028C0034F2B8 /* BottomNav.swift in Sources */,
+				721ED9C42BD470990034F2B8 /* TopNav.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vry.youtubeSplash;
+				PRODUCT_BUNDLE_IDENTIFIER = vry.Youtube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vry.youtubeSplash;
+				PRODUCT_BUNDLE_IDENTIFIER = vry.Youtube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		728016EC2BD41D67003416C9 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		728016ED2BD41D67003416C9 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 728016EC2BD41D67003416C9 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 728016D32BD41D27003416C9 /* Project object */;
 }
