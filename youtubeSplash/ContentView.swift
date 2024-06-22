@@ -26,7 +26,8 @@ struct ContentView: View {
             } else {
                 VStack {
                     TopNav()
-                        .padding(.horizontal, 20)
+//                        .padding(.horizontal, 20)
+                        .frame(width: 375)
                     VideoView()
                     BottomNav()
                 }
