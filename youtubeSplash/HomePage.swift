@@ -10,7 +10,6 @@ import SwiftUI
 struct HomePage: View {
     var body: some View {
         TopNav()
-//        BottomNav()
     }
 }
 
